@@ -1,0 +1,109 @@
+/*=========== COMMON CSS START ===========*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+.mr {
+    margin-right: 0 !important;
+}
+
+#mr {
+    margin-right: 0 !important;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/*=========== COMMON CSS END ===========*/
+
+.register {
+    background: url(../images/pexels-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overly {
+    padding: 40px;
+    background: rgba(17, 17, 17, 0.6)
+}
+
+.register_form {
+    box-sizing: border-box;
+}
+
+.form_header {
+    text-align: center;
+}
+
+.form_header h3 {
+    font-size: 50px;
+    color: #fff;
+    border-bottom: 3px solid #00bc90;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.form_body {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.form_field input {
+    width: 30%;
+    padding: 8px 20px;
+    border: none;
+    font-size: 25px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+    background: none;
+    color: #fff;
+    border: 1px solid #1bfbff;
+}
+
+.form_field h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.farm {
+    padding-top: 20px;
+}
